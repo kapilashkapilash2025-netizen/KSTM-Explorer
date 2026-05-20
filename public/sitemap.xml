@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-domain.com/</loc></url>
+  <url><loc>https://your-domain.com/about/</loc></url>
+  <url><loc>https://your-domain.com/places/</loc></url>
+  <url><loc>https://your-domain.com/hotels/</loc></url>
+  <url><loc>https://your-domain.com/provinces/</loc></url>
+  <url><loc>https://your-domain.com/trip-planner/</loc></url>
+  <url><loc>https://your-domain.com/emergency/</loc></url>
+  <url><loc>https://your-domain.com/favourites/</loc></url>
+  <url><loc>https://your-domain.com/dashboard/</loc></url>
+  <url><loc>https://your-domain.com/login/</loc></url>
+  <url><loc>https://your-domain.com/register/</loc></url>
+</urlset>

@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3ecbff;
+  --color-primary-50: #ebfaff;
+  --color-primary-100: #d2f4ff;
+  --color-primary-200: #a8eaff;
+  --color-primary-300: #72dbff;
+  --color-primary-400: #3ecbff;
+  --color-primary-500: #14b8f3;
+  --color-primary-600: #0096c7;
+  --color-primary-700: #0077a3;
+  --color-primary-800: #045a7b;
+  --color-primary-900: #063b52;
+  --color-primary-950: #021926;
+
+  --color-secondary-50: #eff6ff;
+  --color-secondary-100: #dbeafe;
+  --color-secondary-200: #bfdbfe;
+  --color-secondary-300: #93c5fd;
+  --color-secondary-400: #60a5fa;
+  --color-secondary-500: #3b82f6;
+  --color-secondary-600: #2563eb;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+}
+
+:root {
+  --background: #020305;
+  --foreground: #e7f6ff;
+  --card: #070a0f;
+  --card-foreground: #f2f9ff;
+  --border: #112133;
+  --muted: #0b1119;
+  --muted-foreground: #9ab4c6;
+}
+
+[data-theme='dark'] {
+  --background: #010203;
+  --foreground: #e6f5ff;
+  --card: #060b11;
+  --card-foreground: #e6f5ff;
+  --border: #102133;
+  --muted: #0a121c;
+  --muted-foreground: #8ea9bc;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), "Segoe UI", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+  @apply antialiased transition-colors duration-300;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  image-rendering: auto;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-primary-400);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+::selection {
+  background: rgba(20, 184, 243, 0.28);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05090f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0096c7 0%, #045a7b 100%);
+  border-radius: 999px;
+}
+
+@utility text-gradient-primary {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-300 via-primary-400 to-primary-600;
+}
+
+@utility bg-gradient-primary {
+  @apply bg-gradient-to-r from-primary-700 via-primary-600 to-primary-500 text-white;
+}
+
+@utility glass-panel {
+  @apply bg-card/75 backdrop-blur-xl border border-primary-900/40;
+  box-shadow:
+    0 12px 40px rgba(1, 10, 20, 0.75),
+    0 0 0 1px rgba(62, 203, 255, 0.14);
+}
+
+@utility neon-glow {
+  box-shadow:
+    0 0 0 1px rgba(62, 203, 255, 0.35),
+    0 0 24px rgba(20, 184, 243, 0.35),
+    inset 0 0 40px rgba(62, 203, 255, 0.15);
+}
