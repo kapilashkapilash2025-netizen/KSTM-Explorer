@@ -10,6 +10,7 @@ export default defineConfig({
     globals: true,
     include: ['tests/**/*.test.ts', 'tests/**/*.test.tsx'],
     coverage: {
+      provider: 'v8',
       reporter: ['text', 'html'],
     },
   },
