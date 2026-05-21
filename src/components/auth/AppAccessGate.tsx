@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { LockKeyhole, ShieldCheck } from 'lucide-react';
 import Image from 'next/image';
 
-const ACCESS_CODE = 'KAPI13$';
+const ACCESS_CODE = 'TRAVEL2026$';
 
 export default function AppAccessGate({ children }: { children: React.ReactNode }) {
   // Always require the code for every new page load (web + APK).
@@ -34,7 +34,7 @@ export default function AppAccessGate({ children }: { children: React.ReactNode 
           <div className="w-14 h-14 rounded-2xl bg-cyan-500/20 border border-cyan-400/40 flex items-center justify-center mb-4">
             <LockKeyhole className="w-7 h-7 text-cyan-300" />
           </div>
-          <h2 className="text-2xl font-bold mb-2">Enter The Developed Code</h2>
+          <h2 className="text-2xl font-bold mb-2">Enter Access Code</h2>
           <p className="text-cyan-100/80 text-sm mb-6">This APK is protected. Enter access code to continue.</p>
 
           <form onSubmit={handleUnlock} className="space-y-4">

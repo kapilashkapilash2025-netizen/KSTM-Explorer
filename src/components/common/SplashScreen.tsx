@@ -39,8 +39,8 @@ export default function SplashScreen() {
           <div className="absolute bottom-12 flex flex-col items-center gap-4">
             <div className="w-6 h-6 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
             <div className="text-center space-y-1">
-              <p className="text-[10px] font-semibold tracking-widest uppercase opacity-70">Developd by -KAPI13</p>
-              <p className="text-xs font-bold tracking-wide uppercase opacity-90">App Full Aha Desind by -SEEBTHI03</p>
+              <p className="text-[10px] font-semibold tracking-widest uppercase opacity-70">Sri Lanka Travel Explorer</p>
+              <p className="text-xs font-bold tracking-wide uppercase opacity-90">Smart Tourism Assistant</p>
             </div>
           </div>
         </motion.div>

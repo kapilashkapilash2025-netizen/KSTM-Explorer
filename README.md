@@ -1,11 +1,13 @@
 # Sri Lanka Travel Explorer
 
-Developd by SEEBTHI03
-
 ## Description
 A smart Sri Lanka tourism assistant platform for discovering places, hotels, trip planning, favourites, dashboard, emergency contacts and tourist safety tools. 
 
 This application is designed as a production-style tourism platform and can be extended with AI/RAG, real maps, booking integrations, and government tourism APIs.
+
+## Beginner Full Guide (Tamil)
+- Complete step-by-step setup, clone, run, structure map, and Windows commands:
+- [SETUP_AND_STRUCTURE_GUIDE_TA.md](./SETUP_AND_STRUCTURE_GUIDE_TA.md)
 
 ## Features
 - Interactive tourism map (Placeholder for future GIS integration)
@@ -22,7 +24,7 @@ This application is designed as a production-style tourism platform and can be e
 - Fully responsive modern design (Tailwind CSS V4)
 
 ## Tech Stack
-- Next.js 14+ (App Router)
+- Next.js 16+ (App Router)
 - React 19
 - TypeScript
 - Tailwind CSS v4

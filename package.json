@@ -6,6 +6,8 @@
     "dev": "next dev",
     "dev:9999": "node ./scripts/dev-9999.mjs",
     "check:9999": "node ./scripts/check-9999.mjs",
+    "clean": "node ./scripts/clean-workspace.mjs",
+    "fresh": "npm run clean && npm install",
     "build": "next build",
     "build:web": "next build",
     "start": "next start",

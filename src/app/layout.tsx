@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:9999"),
   title: "Sri Lanka Travel Explorer | Smart Tourism Assistant",
-  description: "Discover Sri Lankan destinations, hotels, trip plans, favourites and tourist safety tools. Developd by SEEBTHI03.",
+  description: "Discover Sri Lankan destinations, hotels, trip plans, favourites and tourist safety tools.",
   openGraph: {
     title: "Sri Lanka Travel Explorer | Smart Tourism Assistant",
     description: "Discover Sri Lankan destinations, hotels, trip plans, favourites and tourist safety tools.",
