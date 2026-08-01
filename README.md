@@ -12,7 +12,7 @@ This application is designed as a production-style tourism platform and can be e
 ## Features
 - Interactive tourism map (Placeholder for future GIS integration)
 - Places discovery with rich details
-- Hotels discovery with star ratings and amenities
+- Hotels discovery with star ratings and amenitiekljklklkjlkjlkjls
 - Province/category filters and advanced search
 - Trip planner (Automated day-by-day itinerary generation)
 - Favourites system (Local Storage based)
